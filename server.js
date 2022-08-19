@@ -20,6 +20,21 @@ const users = [
 	},
 ];
 
+const Todos = [
+  {
+    title: "buy book",
+    by: "sdfdsf"
+  }
+  {
+    title: "write code",
+    by: "sdfsadfdsf"
+  }
+  {
+    title: "record video",
+    by: "sdfdf3sf"
+  }
+]
+
 const typeDefs = gql`
 	type Query {
 		users: [User]
